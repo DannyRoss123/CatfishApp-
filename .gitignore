@@ -20,3 +20,27 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# CatfishCheck extras
+catfishcheck/backend/storage/
+catfishcheck/frontend/.next/
+catfishcheck/frontend/node_modules/
+catfishcheck/frontend/playwright-report/
+catfishcheck/frontend/test-results/
+catfishcheck/.env
+catfishcheck/.venv/
+
+# Catfish simple prototype artifacts
+catfish_simple/.venv/
+catfish_simple/catfish_simple.db
+
+__pycache__/
+.pytest_cache/
+*.pyc
+storage/
+
+# React frontend artifacts
+catfish_simple/frontend/node_modules/
+catfish_simple/frontend/dist/
+catfish_simple/.venv/
+catfish_simple/backend/data/
